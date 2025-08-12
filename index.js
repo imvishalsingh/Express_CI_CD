@@ -1,8 +1,9 @@
 // index.js
+
 const express = require('express');
 const app = express();
 
-// Root route
+// Root route 
 app.get('/', (req, res) => {
   res.send('Hello World');
 });
